@@ -1,0 +1,138 @@
+@import "compass"
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*
+body{
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg,  rgba(0,0,0,1) 0%,rgba(1,0,0,1) 4%,rgba(14,4,4,1) 12%,rgba(17,5,6,1) 13%,rgba(18,5,5,1) 14%,rgba(29,10,9,1) 20%,rgba(29,8,9,1) 21%,rgba(45,15,16,1) 32%,rgba(50,16,15,1) 35%,rgba(55,24,51,1) 59%,rgba(55,24,62,1) 68%,rgba(57,27,67,1) 71%,rgba(56,25,67,1) 72%,rgba(57,27,70,1) 73%,rgba(45,46,83,1) 84%,rgba(26,62,98,1) 95%,rgba(22,65,100,1) 98%,rgba(23,61,96,1) 98%,rgba(25,63,98,1) 98%,rgba(26,66,100,1) 100%,rgba(44,76,148,1) 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.main_title {
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20%;
+	position: relative;
+	top : 17px;
+}
+
+.contact-page {
+	 position: absolute;
+	 bottom: 0;
+	 right:15px;
+	 height:40px;
+	 color: white;
+}
+
+.about-page {
+	position: absolute;
+	bottom: 0;
+	right:97px;
+	height:40px;
+	color: white;
+}
+
+.logoposition{
+	position:absolute;
+	top:15px;
+	left:-35px;
+}
+
+.description h1{
+font-family: 'Corbel';
+font-weight:normal;
+font-size: 35px;
+color: white;
+margin-top: 50px;
+text-align: center;
+}
+
+.description-2 h2{
+font-family: "Corbel";
+font-size: 28px;
+color: white;
+text-align: center;
+font-weight:normal;
+  line-height: 10px;
+  margin: 15px 0;
+}
+
+.description-3 h3{
+font-family: "Corbel";
+font-size: 22px;
+color: white;
+text-align: center;
+font-weight:normal;
+}
+
+
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-30%);
+  color: white;
+}
+.login-box h5{
+  float: left;
+  font-size: 20px;
+  border-bottom: 4px solid #05476B;
+  margin-bottom: 30px;
+  padding: 7px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #05476B;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #05476B;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+.Create-account {
+	position: absolute;
+	bottom: 0;
+	right:97px;
+	height:50px;
+	color: white;
+}
+
+
+.flex-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+}
+
+.color {
+	color: blue;
+}

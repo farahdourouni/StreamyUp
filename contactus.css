@@ -1,0 +1,326 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+
+
+body {
+    background: linear-gradient(135deg,  rgba(0,0,0,1) 0%,rgba(1,0,0,1) 4%,rgba(14,4,4,1) 12%,rgba(17,5,6,1) 13%,rgba(18,5,5,1) 14%,rgba(29,10,9,1) 20%,rgba(29,8,9,1) 21%,rgba(45,15,16,1) 32%,rgba(50,16,15,1) 35%,rgba(55,24,51,1) 59%,rgba(55,24,62,1) 68%,rgba(57,27,67,1) 71%,rgba(56,25,67,1) 72%,rgba(57,27,70,1) 73%,rgba(45,46,83,1) 84%,rgba(26,62,98,1) 95%,rgba(22,65,100,1) 98%,rgba(23,61,96,1) 98%,rgba(25,63,98,1) 98%,rgba(26,66,100,1) 100%,rgba(44,76,148,1) 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    box-sizing: border-box;
+    font-family: "Corbel";
+}
+
+
+.main_title {
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20%;
+	position: relative;
+	top: 0px;
+}
+
+
+.deconnexion {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 14px;
+	color: blue;
+}
+
+
+
+.contact-page {
+   position: absolute;
+   bottom: 0px;
+   right: 25px;
+   color: #ffffff;
+   height:40px;
+   font-size: 18px;
+   font-family: "Corbel"
+}
+
+.about-page {
+  position: absolute;
+  bottom: 0px;
+  right:30px;
+  height:40px;
+  color: white;
+  font-size: 18px;
+  font-family: "Corbel";
+}
+
+
+
+.contact
+{
+	position: relative;
+	min-height: 70vh;
+	padding: 60px 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.contact .content {
+	max-width: 1000px;
+	text-align: center;
+}
+
+.contact .content h2 {
+	font-family: "Corbel";
+	font-size: 30px;
+	font-weight: normal;
+	color: #c4bfe0;
+	text-decoration: underline;
+	line-height: 70px;
+	width: 800px;
+}
+
+
+.contact .content p {
+	font-family: "Corbel";
+	font-weight: 300;
+	color: #ffffff;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.container2 {
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.container2 .contactInfo {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container2 .contactInfo .box {
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+
+.container2 .contactInfo .box .icon {
+	width: 60px;
+	height: 60px;
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 60%;
+	font-size: 20px;
+	color:#3b2045;
+}
+
+
+
+.container2 .contactInfo .box .text {
+	display: flex;
+	margin-left: 20px;
+	font-family: "Corbel";
+	font-size: 14px;
+	color: #ffffff;
+	flex-direction: column;
+	font-weight: 300;
+}
+
+
+.container2 .contactInfo .box .text h3 {
+	font-weight: 900;
+	color: #c4bfe0;
+	margin-top: 0em ;
+    margin-bottom: 10px ;
+}
+
+.contactForm {
+	width: 40%;
+	padding: 40px;
+	background:#ffffff;
+}
+
+
+.contactForm h2 {
+	font-size: 30px;
+	color: #333;
+	font-weight: 500;
+}
+
+
+.contactForm .inputBox {
+	position: relative;
+	width:100%;
+	margin-top: 10px;
+}
+
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+	width: 100%;
+	padding: 4px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resize: none;
+}
+
+
+.contactForm .inputBox span {
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+}
+
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+
+
+
+.contactForm .inputBox input[type="submit"] {
+	width: 100px;
+	background: #3b2045;
+	color: #ffffff;
+	border:none;
+	cursor:pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+
+
+
+@media (max-width: 991px)
+{
+	.contact {
+		padding: 50px;
+	}
+
+	.container2 {
+		flex-direction: column;
+	}
+
+	.container2 .contactInfo {
+		margin-bottom: 40px;
+	}
+
+	.container2 .contactInfo,
+	.contactForm
+	{
+		width: 100%;
+	}
+
+
+	.contact-page, .about-page {
+    	display: none;
+    }
+
+}
+
+
+
+
+
+
+nav{
+  position: fixed;
+  width: 60px;
+  margin-top: -560px;
+  transition: all 0.3s linear;
+  box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+}
+
+
+nav li{
+  height: 60px;
+  position:relative;
+}
+
+
+nav li a{
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  padding-left:25%;
+  border-bottom: 1px solid rgba(0,0,0,.4);
+  transition: all .3s linear;
+}
+
+
+nav li:nth-child(1) a{
+  background: #4267B2;
+}
+nav li:nth-child(2) a{
+  background: #E1306C;
+}
+nav li:nth-child(3) a{
+  background: #000000;
+}
+nav li:nth-child(4) a{
+  background: #1DA1F2;;
+}
+
+
+
+nav li a i{
+  position:absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 22px;
+  font-family: "Corbel";
+}
+
+
+ul li a span{
+  display: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+
+nav ul li a:hover {
+  z-index:1;
+  width: 160px;
+  border-bottom: 1px solid rgba(0,0,0,.5);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}
+
+
+ul li:hover a span{
+  padding-left: 30%;
+  display: block;
+}

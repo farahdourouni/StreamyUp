@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Corbel;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    /*
+    align-items: -100px;
+    justify-content: 150px;*/
+    padding-top: 300px;
+    background: linear-gradient(135deg,  rgba(0,0,0,1) 0%,rgba(1,0,0,1) 4%,rgba(14,4,4,1) 12%,rgba(17,5,6,1) 13%,rgba(18,5,5,1) 14%,rgba(29,10,9,1) 20%,rgba(29,8,9,1) 21%,rgba(45,15,16,1) 32%,rgba(50,16,15,1) 35%,rgba(55,24,51,1) 59%,rgba(55,24,62,1) 68%,rgba(57,27,67,1) 71%,rgba(56,25,67,1) 72%,rgba(57,27,70,1) 73%,rgba(45,46,83,1) 84%,rgba(26,62,98,1) 95%,rgba(22,65,100,1) 98%,rgba(23,61,96,1) 98%,rgba(25,63,98,1) 98%,rgba(26,66,100,1) 100%,rgba(44,76,148,1) 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+
+.about-section{
+    font-family: Corbel;
+    background: url(image/movies.jpg) no-repeat left;
+    background-size: 55%;
+    background-color:rgba(255,255,255,0.03);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.inner-container{
+    font-family: Corbel;
+    width: 50%;
+    float: right;
+     background-color:rgba(255,255,255,0.03);
+    padding: 90px;
+}
+
+.inner-container h1{
+    font-family: Corbel;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    padding-left: 40px;
+}
+
+.text{
+    font-family: Corbel;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin-bottom: 40px;
+    margin-left:45px;
+}
+
+.skills{
+    font-family: Corbel;
+    display: right;
+    justify-content: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 540px;
+    color:white;
+}
+
+.main_title {
+  width: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10%;
+  position: relative;
+  top: -420px;
+}
+
+.deconnexion {
+   font-family: Corbel;
+   position: absolute;
+   top: 25px;
+   right : 25px;
+   color:blue;
+   font-size: 20px;
+}
+
+
+.contact-page {
+   font-family: Corbel;
+   position: absolute;
+   bottom: 0;
+   right:15px;
+   height:50px;
+   color: white;
+   font-size: 18px;
+}
+
+.about-page {
+  font-family: Corbel;
+  position: absolute;
+  bottom: 0;
+  right:125px;
+  height:50px;
+  color: white;
+  font-size: 18px;
+}
+
+.intro{
+position: absolute;
+  font-family: Corbel;
+  font-size: 30px;
+  color : white;
+  top : 185px;
+  right: 800px;
+}
+
+
+
+@media screen and (max-width:100px){
+    .inner-container{
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+html, body
+{
+    height: 100%;
+    min-height: 100%;
+}
+
+body
+{
+    margin: 0;
+    background: linear-gradient(135deg,  rgba(0,0,0,1) 0%,rgba(1,0,0,1) 4%,rgba(14,4,4,1) 12%,rgba(17,5,6,1) 13%,rgba(18,5,5,1) 14%,rgba(29,10,9,1) 20%,rgba(29,8,9,1) 21%,rgba(45,15,16,1) 32%,rgba(50,16,15,1) 35%,rgba(55,24,51,1) 59%,rgba(55,24,62,1) 68%,rgba(57,27,67,1) 71%,rgba(56,25,67,1) 72%,rgba(57,27,70,1) 73%,rgba(45,46,83,1) 84%,rgba(26,62,98,1) 95%,rgba(22,65,100,1) 98%,rgba(23,61,96,1) 98%,rgba(25,63,98,1) 98%,rgba(26,66,100,1) 100%,rgba(44,76,148,1) 100%) fixed;
+}
+
+.tb
+{
+    display: table;
+    width: 100%;
+}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+
+
+}
+
+input, button
+{
+    color: black;
+    font-family: Corbel;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#cover
+{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: -1680px;
+    width: 20em;
+    padding: 1px;
+    margin: -90px auto 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0px 20px blue;
+    transform: scale(0.4);
+}
+
+form
+{
+    height: 5px;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    line-height: 1;
+
+
+}
+
+input[type="text"]::placeholder
+{
+    color: black;
+}
+
+#s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+
+button
+{
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 96px;
+    cursor: pointer;
+}
+
+#s-circle
+{
+    position: relative;
+    top: -15px;
+    left: 10;
+    width: 25px;
+    height: 25px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 5px solid blue;
+    background-color: transparent;
+    border-radius: 90%;
+    transition: 0.5s ease all;
+}
+
+button span
+{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    display: block;
+    width: 25px;
+    height: 5px;
+    background-color: transparent;
+    border-radius: 10px;
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+    border : 1px solid blue;
+    background-color: blue;
+}

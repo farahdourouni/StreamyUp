@@ -1,0 +1,405 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+*
+body {
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg,  rgba(0,0,0,1) 0%,rgba(1,0,0,1) 4%,rgba(14,4,4,1) 12%,rgba(17,5,6,1) 13%,rgba(18,5,5,1) 14%,rgba(29,10,9,1) 20%,rgba(29,8,9,1) 21%,rgba(45,15,16,1) 32%,rgba(50,16,15,1) 35%,rgba(55,24,51,1) 59%,rgba(55,24,62,1) 68%,rgba(57,27,67,1) 71%,rgba(56,25,67,1) 72%,rgba(57,27,70,1) 73%,rgba(45,46,83,1) 84%,rgba(26,62,98,1) 95%,rgba(22,65,100,1) 98%,rgba(23,61,96,1) 98%,rgba(25,63,98,1) 98%,rgba(26,66,100,1) 100%,rgba(44,76,148,1) 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.logoposition{
+	position:absolute;
+	top:15px;
+	left:-35px;
+}
+
+
+.main_title {
+	width: 15%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 15%;
+	position: relative;
+	top: 17px;
+}
+
+
+
+/*bouton deconnexion*/
+.button {
+	position:relative;
+	top:-10px;
+	left: 1385px;
+  background-color: #05476B;
+  border: none;
+	border-radius: 5px;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 2px;
+}
+
+.tb
+{
+    display: table;
+    width: 100%;
+}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input, button
+{
+    color: black;
+    font-family: Corbel;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#cover
+{
+    position: absolute;
+    top: 20%;
+    left: 120;
+    right: 0;
+    width: 20em;
+
+    padding: 1px;
+    margin: -90px auto 0 auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0px 20px blue;
+    transform: scale(0.4);
+}
+
+form
+{
+    height: 45px;
+}
+
+input[type="text"]
+{
+    width: 500%;
+    height: 100px;
+    font-size: 40px;
+    line-height: 1;
+}
+
+input[type="text"]::placeholder
+{
+    color: black;
+}
+
+#s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+
+button
+{
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 96px;
+    cursor: pointer;
+}
+
+#s-circle
+{
+    position: relative;
+    top: -15px;
+    left: 10;
+    width: 15px;
+    height: 15px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 5px solid blue;
+    background-color: transparent;
+    border-radius: 90%;
+    transition: 0.5s ease all;
+}
+
+button span
+{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    display: block;
+    width: 25px;
+    height: 5px;
+    background-color: transparent;
+    border-radius: 10px;
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+    border : 1px solid blue;
+    background-color: blue;
+}
+
+
+
+nav {
+	position: relative;
+	margin: 80px auto 0;
+	width: 720px;
+	height: 50px;
+	border: 10px solid rgba(255,255,255,0);
+	border-radius: 8px;
+	border-width: 1px;
+	border-style : ridge;
+	font-size: 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+
+}
+
+
+nav a {
+	font-family: "Corbel";
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	position: relative;
+	z-index:1;
+	display: inline-block;
+	text-align: center;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+
+a:nth-child(1) {
+	width: 170px;
+}
+
+a:nth-child(2) {
+	width: 150px;
+}
+
+a:nth-child(3) {
+	width: 270px;
+}
+
+a:nth-child(4) {
+	width: 110px;
+}
+
+
+nav a:hover {
+background-color:rgba(255,255,255,0.03);
+border-radius: 20px;
+border-color: #9a95c9;
+}
+
+
+
+
+.carousel_title {
+font-family: "Corbel";
+font-size: 14px;
+color: white;
+text-align: center;
+font-weight:normal;
+line-height: 700%;
+}
+
+
+
+.container2 {
+  position: relative;
+  width: 250px;
+  margin: 100px auto;
+  perspective: 1600px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate360 40s infinite forwards linear;
+}
+.carousel__face {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+
+.link {
+  margin: auto;
+  font-size: 6rem;
+  opacity: 0;
+}
+
+
+.carousel__face:nth-child(1) {
+  background-image: url("https://www.mondedesgrandesecoles.fr/wp-content/uploads/la-casa-de-papel-2.jpg");
+  background-position: center;
+  transform: rotateY(4deg)  translateZ(330px); }
+.carousel__face:nth-child(2) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8vqfi3h9gk70uftSdnzvGSILENSP4uYD4iQ&usqp=CAU");
+    background-position: center;
+    transform: rotateY(42deg) translateZ(330px); }
+.carousel__face:nth-child(3) {
+  background-image: url("https://www.madmoizelle.com/wp-content/uploads/2019/01/you-saison-2.jpg");
+    background-position: center;
+  transform: rotateY(79deg) translateZ(330px); }
+.carousel__face:nth-child(4) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9321I1ruaz8WezwyONoLinSPnQF_Fp2EmSRLbK_xkwXwT6SL4o1DKp5jv3ZAxp5h3I4&usqp=CAU");
+    background-position: center;
+  transform: rotateY(117deg) translateZ(330px); }
+.carousel__face:nth-child(5) {
+  background-image: url("https://sortie.news/wp-content/uploads/2021/02/The-Blacklist-Saison-8-Episode-8-Date-de-sortie.jpg");
+    background-position: center;
+ transform: rotateY(158deg) translateZ(330px); }
+.carousel__face:nth-child(6) {
+  background-image: url("https://img.lemde.fr/2017/10/13/90/0/1199/599/1440/720/60/0/764b762_24800-wgmwsr.woclwka9k9.png");
+    background-position: center;
+ transform: rotateY(198deg) translateZ(330px); }
+.carousel__face:nth-child(7) {
+  background-image: url("https://img.phonandroid.com/2021/01/black-widow-sortie-disney-plus.jpg");
+    background-position: center;
+ transform: rotateY(239deg) translateZ(330px); }
+.carousel__face:nth-child(8) {
+  background-image: url("https://halloweendailynews.com/wp-content/uploads/2018/04/Halloween-2018-banner-e1525987139934.jpg");
+    background-position: center;
+  transform: rotateY(281deg) translateZ(330px); }
+.carousel__face:nth-child(9) {
+  background-image: url("https://fans-disney-alsace.fr/wp-content/uploads/2018/02/labyrinthe-3-remede-mortel-critique-1024x576.jpg");
+    background-position: center;
+  transform: rotateY(324deg) translateZ(330px); }
+
+
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+
+
+.titrevideo{
+	font-family: "Corbel";
+	text-align : center;
+	font-family: sans-serif;
+	margin: 30px 0;
+	text-align: left;
+	font-size : 35px;
+	color : white;
+	transform: translate(6%,200%);
+	margin-top : 100px;
+
+}
+
+.separateur {
+	width: 10%;
+	height: 2px;
+	background-color: #05476B;
+	border: 3px solid #05476B;
+	position: relative;
+	transform: translate(-380%,800%);
+
+}
+
+.separateur2 {
+	width: 30%;
+	height: 2px;
+	background-color: #05476B;
+	border: 3px solid #05476B;
+	position: relative;
+	transform: translate(-95%,700%);
+
+}
+
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    grid-template-rows: repeat(3, 330px);
+    column-gap: 70px;
+    row-gap: 0px;
+    position: relative;
+    top: 140px;
+    left: 120px;
+
+
+}
+
+.grid-box img {
+    width: 100%;
+    margin: auto;
+    height: 190px;
+    transition: 0.5s;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+
+.grid-box img:hover {
+    transform: translateY(-10px);
+}
+
+/*Barre de recherche*/
+
+.positionsearch{
+	transform: translate(5%,10%);
+}
+
+input{
+		width: 70%;
+    margin: 50px 0;
+		background-color: white;
+		border-radius: 5px;
+		height: 30px;
+		transform: translate(0%,20%);
+}
+
+.boutonsearch{
+	  width: 10%;
+	  background: #05476B;
+	  border: 2px #05476B;
+		border-radius : 5px;
+	  color: white;
+		width: 100px;
+		height: 30px;
+	  font-size: 15px;
+	  cursor: pointer;
+	  transform: translate(550%,-235%);
+	}
+
+	.box {
+		display: flex;
+		transform: translate(220%,1100%);
+	}
+
+	.colorlien{
+		color : white;
+		text-decoration:none;
+	}
+
+	.bienvenue{
+			position:absolute;
+			top:15px;
+			right:180px;
+		  color: white;
+		  padding: 10px 0px;
+		  font-size: 14px;
+		  margin: 4px 2px;
+	}
+}
